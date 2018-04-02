@@ -1,0 +1,17 @@
+{
+    "name": "Claire Background",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "A test chrome extension by Claire",
+    "icons": {
+        "128": "Icon.png"
+    },
+    "browser_action": {
+        "default_title": "Claire Change Background",
+        "default_popup": "Popup.html"
+    },
+    "permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+}
